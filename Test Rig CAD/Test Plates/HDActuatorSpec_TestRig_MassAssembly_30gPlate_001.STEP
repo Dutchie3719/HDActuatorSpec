@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('HDActuatorSpec_TestRig_MassAssembly_30gPlate_001.STEP',
+    '2021-04-23T09:57:45',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2021',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = PRODUCT ( 'HDActuatorSpec_TestRig_MassAssembly_30gPlate_001', 'HDActuatorSpec_TestRig_MassAssembly_30gPlate_001', '', ( #11 ) ) ;
+#2 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #9 ) ;
+#3 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #10, 'design' ) ;
+#4 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#5 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #1 ) ) ;
+#6 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #4 ) ;
+#7 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #1, .NOT_KNOWN. ) ;
+#8 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #10 ) ;
+#9 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #7, #3 ) ;
+#10 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#11 = PRODUCT_CONTEXT ( 'NONE', #4, 'mechanical' ) ;
+ENDSEC;
+END-ISO-10303-21;
